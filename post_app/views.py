@@ -1,4 +1,4 @@
-from .models import Post, Like, Follow, Comment
+from .models import *
 from .serializers import *
 from rest_framework.generics import (
     ListAPIView,
